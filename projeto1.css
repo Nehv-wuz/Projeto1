@@ -1,0 +1,32 @@
+#body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#quadrado {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, blue, purple);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    font-size: 4vh;
+}
+
+#botaotext {
+    width: 40%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#btext1 {
+    width: 100%;
+    height: 100%;
+    border: solid black;
+    border-radius: 2vh;
+}
